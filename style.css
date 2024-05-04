@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 400px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 40px;
+}
+
+.country {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 7px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.container a:not(.last-link) {
+  margin-bottom: 15px;
+}
+
+.container a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.container a:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 85%;
+    padding: 25px;
+  }
+}
